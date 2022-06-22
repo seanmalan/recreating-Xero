@@ -8,10 +8,10 @@ const Header = () => {
         <div className="headerLineItems">
             <ul>
                 <li>
-                    <a href="https://www.xero.com/nz/">Features</a>
+                    <a href="./Features/Feature.js">Features</a>
                 </li>
                 <li>
-                    <a href="https://www.xero.com/nz/pricing-plans/">Plans</a>
+                    <a href="../Plans/Plans.js">Plans</a>
                 </li>
                 <li>
                     <a href="https://www.xero.com/nz/">For small business</a>

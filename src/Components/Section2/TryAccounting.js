@@ -1,9 +1,11 @@
+
+
 const TryAccounting = () => {
   return (
     <>
       <div className="body">
         <div className="bodyTitle">
-          <h3>Try accounting software for everyday business.</h3>;
+          <h1>Try accounting software for everyday business.</h1>
         </div>
         <div className="bodyMain">
           <p>
@@ -13,7 +15,7 @@ const TryAccounting = () => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
 export default TryAccounting;
