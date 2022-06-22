@@ -1,7 +1,7 @@
 
 import Header from "./Components/Header/Header";
 import Body from "./Components/Body";
-
+import { Route, Routes } from "react-router-dom"
 
 const App = () => {
   
@@ -9,8 +9,10 @@ const App = () => {
 
   return (
     <div >
-        <Header />
-        <Body />
+      <Routes>
+        <Route path="/" element={<Header />} />
+        <Route path="/" element={ <Body /> } />
+      </Routes>
         
     </div>
   );
