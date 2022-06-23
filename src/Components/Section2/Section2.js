@@ -2,6 +2,7 @@ import TryAccounting from "./TryAccounting";
 import FeaturesTiles from "./FeaturesTiles"
 import "./Section2.css"
 
+
 const Section2 = () => {
   return (
     <div className="sectionBody">

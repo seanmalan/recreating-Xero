@@ -1,5 +1,7 @@
 import Logo from "./Logo";
 import "./Header.css";
+import { Link } from "react-router-dom";
+
 
 const Header = () => {
   return (
@@ -8,16 +10,16 @@ const Header = () => {
         <div className="headerLineItems">
             <ul>
                 <li>
-                    <a href="./Features/Feature.js">Features</a>
+                    <Link to="./Features/Feature">Features</Link>
                 </li>
                 <li>
-                    <a href="../Plans/Plans.js">Plans</a>
+                    <Link to="../Plans/Plans">Plans</Link>
                 </li>
                 <li>
-                    <a href="https://www.xero.com/nz/">For small business</a>
+                    <Link to="https://www.xero.com/nz/">For small business</Link>
                 </li>
                 <li>
-                    <a href="https://www.xero.com/nz/">Support</a>
+                    <Link to="https://www.xero.com/nz/">Support</Link>
                 </li>
             </ul>
         </div>

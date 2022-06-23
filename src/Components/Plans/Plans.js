@@ -1,6 +1,7 @@
 import React from "react";
 import "./Plans.css";
-import PlanPrice from "./PlanPrice";
+
+
 
 const Plans = () => {
   return (

@@ -1,23 +1,23 @@
 import { React, useEffect, useState } from "react";
 import Section2 from "./Section2/Section2";
-import {Routes, Route} from "react-router-dom"
+
 import XeroForFree from "./XeroForFree";
 import SellPoints from "./SellPoints";
 import Data from "./Features/data";
 
 
 const Body = () => {
-  // const [features, setData] = useState([]);
-  // console.log(features);
+  const [features, setData] = useState([]);
+  console.log(features);
 
-  // useEffect(() => {
-  //   const loadData = async () => {
-  //     const features = await Data();
-  //     setData(features);
-  //   };
+  useEffect(() => {
+    const loadData = async () => {
+      const features = await Data();
+      setData(features);
+    };
 
-  //   loadData();
-  // }, []);
+    loadData();
+  }, []);
 
   return (
     <>
